@@ -1,0 +1,92 @@
+[
+  {
+    "name": "SC1_OW_HEL_OUL_Economy",
+    "tripType": "OW",
+    "origin": "HEL",
+    "destination": "OUL",
+    "departureDate": "2026-08-01",
+    "fareType": "Economy",
+    "airlineId": "AY",
+    "agentId": "1234567890",
+    "passengers": [
+      { "passengerTypeCode": "ADT", "dateOfBirth": "1996-07-14", "requestSeat": true }
+    ]
+  },
+
+  {
+    "name": "SC2_OW_HEL_ARN_Economy",
+    "tripType": "OW",
+    "origin": "HEL",
+    "destination": "ARN",
+    "departureDate": "2026-08-01",
+    "fareType": "Economy",
+    "airlineId": "AY",
+    "agentId": "1234567890",
+    "passengers": [
+      { "passengerTypeCode": "ADT", "dateOfBirth": "1992-07-14", "requestSeat": true, "serviceCategories": ["wifi"] },
+      { "passengerTypeCode": "ADT", "dateOfBirth": "1984-07-14", "requestSeat": true, "serviceCategories": ["baggage"] },
+      { "passengerTypeCode": "CHD", "dateOfBirth": "2018-07-14", "requestSeat": true }
+    ]
+  },
+
+  {
+    "name": "SC3_OW_HEL_LHR_Economy",
+    "tripType": "OW",
+    "origin": "HEL",
+    "destination": "LHR",
+    "departureDate": "2026-08-01",
+    "fareType": "Economy",
+    "airlineId": "AY",
+    "agentId": "1234567890",
+    "passengers": [
+      { "passengerTypeCode": "ADT", "dateOfBirth": "1988-07-14", "requestSeat": true },
+      { "passengerTypeCode": "INS", "dateOfBirth": "2025-07-14", "requestSeat": true, "associatedAdultIndex": 0 },
+      { "passengerTypeCode": "CHD", "dateOfBirth": "2017-07-14", "requestSeat": true }
+    ]
+  },
+
+  {
+    "name": "SC4_RT_HEL_CPH_Economy",
+    "tripType": "RT",
+    "origin": "HEL",
+    "destination": "CPH",
+    "departureDate": "2026-08-01",
+    "returnDate": "2026-08-08",
+    "fareType": "Economy",
+    "airlineId": "AY",
+    "agentId": "1234567890",
+    "passengers": [
+      { "passengerTypeCode": "ADT", "dateOfBirth": "1986-07-14", "requestSeat": true, "serviceCategories": ["wifi"] }
+    ]
+  },
+
+  {
+    "name": "SC5_RT_HEL_FRA_Economy",
+    "tripType": "RT",
+    "origin": "HEL",
+    "destination": "FRA",
+    "departureDate": "2026-08-01",
+    "returnDate": "2026-08-08",
+    "fareType": "Economy",
+    "airlineId": "AY",
+    "agentId": "1234567890",
+    "passengers": [
+      { "passengerTypeCode": "ADT", "dateOfBirth": "1994-07-14", "requestSeat": true, "serviceCategories": ["wifi"] },
+      { "passengerTypeCode": "ADT", "dateOfBirth": "1990-07-14", "requestSeat": true, "serviceCategories": ["baggage"] },
+      { "passengerTypeCode": "CHD", "dateOfBirth": "2017-07-14", "requestSeat": true }
+    ]
+  },
+  {
+    "name": "SC6_OW_ARN_HEL_Business",
+    "tripType": "OW",
+    "origin": "ARN",
+    "destination": "HEL",
+    "departureDate": "2026-08-01",
+    "fareType": "Business",
+    "airlineId": "AY",
+    "agentId": "1234567890",
+    "passengers": [
+      { "passengerTypeCode": "ADT", "dateOfBirth": "1997-07-14", "requestSeat": true, "serviceCategories": ["wifi"] }
+    ]
+  }
+]
